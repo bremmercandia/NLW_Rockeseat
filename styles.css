@@ -15,10 +15,6 @@ header{
     height: calc(120px + 32px);
 }
 
-header div img {
-    width: 100%;
-    border-radius: 50%;
-}
 
 header div {
     width: 120px;
@@ -30,6 +26,12 @@ header div {
 
     transition: transform .3s;
 }
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 header div:hover{
     transform: scale(1.1);
 }
